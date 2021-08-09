@@ -1,6 +1,7 @@
 import React from 'react'
 
 // Services
+import * as pathService from '../../services/pathService'
 
 // Components
 

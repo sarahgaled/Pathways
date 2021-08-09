@@ -3,6 +3,7 @@ import { Switch, Route, Redirect, useHistory } from 'react-router-dom'
 
 // Services
 import * as authService from '../../services/authService'
+import * as pathService from '../../services/pathService'
 
 // Pages + Components
 import NavBar from '../../components/NavBar/NavBar'
@@ -10,7 +11,7 @@ import Signup from '../Signup/Signup'
 import Login from '../Login/Login'
 import Landing from '../Landing/Landing'
 
-import Paths from '../PathsIndex/PathsIndex'
+import PathsIndex from '../PathsIndex/PathsIndex'
 
 const App = () => {
 	const history = useHistory()
@@ -51,7 +52,7 @@ const App = () => {
 				</Route>
 
 				<Route exact path='/paths'>
-					<Paths />
+					<PathsIndex />
 				</Route>
 
 				{/* ProtectedRoute to /profile */}

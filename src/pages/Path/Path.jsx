@@ -41,6 +41,7 @@ const Path = (props) => {
   return (
     <div className="path">
       <Skill />
+      <SkillCard />
     </div>
   )
 }

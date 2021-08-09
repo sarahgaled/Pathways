@@ -1,6 +1,7 @@
 import React from 'react'
 
 // Services
+
 // import {
 //   getAllPaths,
 //   getPathById
@@ -8,7 +9,7 @@ import React from 'react'
 
 // Components
 import Skill from '../../components/Skill/Skill'
-// import Skill from '../../components/Skill/Skill'
+
 
 const Path = (props) => {
   // useStates

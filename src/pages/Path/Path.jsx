@@ -9,6 +9,7 @@ import {
 
 // Components
 import Skill from '../../components/Skill/Skill'
+import SkillCard from '../../components/SkillCard/SkillCard'
 
 
 const Path = (props) => {

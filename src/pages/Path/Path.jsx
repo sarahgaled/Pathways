@@ -3,7 +3,7 @@ import React from 'react'
 // Services
 
 // Components
-
+import Skill from '../../components/Skill/Skill'
 
 const Path = (props) => {
   // useStates

@@ -5,10 +5,7 @@ import {
   getAllPaths,
   getPathById
 } from '../../services/pathService'
-// import {
-//   getAllPaths,
-//   getPathById
-// } from '../../services/pathService'
+
 
 // Components
 import Skill from '../../components/Skill/Skill'

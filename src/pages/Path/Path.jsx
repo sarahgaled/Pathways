@@ -17,11 +17,31 @@ import PathCard from '../../components/PathCard/PathCard'
 const Path = (props) => {
   // useStates
 
+
   // methods
 
+
+  //update useEffect to see our loading animation
+//   useEffect(() => {
+//     const fetchPost = async () => {
+//         try {
+//             const post = await getPathById(id)
+//             setTimeout(() => {
+//                 // setPath(path)
+//                 // setCommentArray(post.comments)
+//             }, 1000)
+//         } catch (error) {
+//             throw error
+//         }
+//     }
+//     fetchPost()
+//     return () => { setPath(null) }
+// }, [id])
+
   return (
-    <main className="paths">
-    </main>
+    <div className="path">
+      <Skill />
+    </div>
   )
 }
 

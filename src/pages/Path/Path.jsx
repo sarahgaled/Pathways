@@ -1,7 +1,10 @@
 import React from 'react'
 
 // Services
-
+import {
+  getAllPaths,
+  getPathById
+} from '../../services/pathService'
 // import {
 //   getAllPaths,
 //   getPathById

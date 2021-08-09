@@ -16,7 +16,7 @@ import PathCard from '../../components/PathCard/PathCard'
 
 const Path = (props) => {
   // useStates
-  
+  const [path, setPath] = useState()
 
 
   // methods

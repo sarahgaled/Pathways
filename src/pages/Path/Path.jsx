@@ -16,6 +16,7 @@ import PathCard from '../../components/PathCard/PathCard'
 
 const Path = (props) => {
   // useStates
+  
 
 
   // methods
@@ -40,7 +41,11 @@ const Path = (props) => {
 
   return (
     <div className="path">
-      <Skill />
+      <Skill 
+      skillName=
+      parentPath=
+      milestones=
+      />
       <SkillCard />
     </div>
   )
